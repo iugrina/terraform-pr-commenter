@@ -1,8 +1,8 @@
-FROM hashicorp/terraform:1.0.6
+FROM hashicorp/terraform:1.4.6
 
-LABEL repository="https://github.com/robburger/terraform-pr-commenter" \
-      homepage="https://github.com/robburger/terraform-pr-commenter" \
-      maintainer="Rob Burger" \
+LABEL repository="https://github.com/iugrina/terraform-pr-commenter" \
+      homepage="https://github.com/iugrina/terraform-pr-commenter" \
+      maintainer="Ivo Ugrina" \
       com.github.actions.name="Terraform PR Commenter" \
       com.github.actions.description="Adds opinionated comments to a PR from Terraform fmt/init/plan output" \
       com.github.actions.icon="git-pull-request" \
